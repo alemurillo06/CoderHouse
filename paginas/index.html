@@ -1,99 +1,143 @@
-<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Wood World</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@0;1&display=swap"
-        rel="stylesheet" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="../css/estilo.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wood Woorld</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link
+    rel="stylesheet"
+    href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
 </head>
-
-<body class="body">
-    <header>
-        <div class="conteiner">
-            <p class="logo">Wood World</p>
-            <nav class="nav">
-                <a href="index.html">Home</a>
-                <a href="Productos.html">Products</a>
-                <a href="Contacto.html">Contact</a>
-                <a href="SobreNosotros.html">About us</a>
-                <a href="Promociones.html">Promotions</a>
-            </nav>
-        </div>
+<body>
+    <header class="container-fluid text-bg-dark d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">contactanos al +54 1160202168</p>
     </header>
-    <section class="hero" id="heroUno">
-        <h1>Titulo de la pagina <br>Con los Mejores</h1>
-        <button>COMPRAR AHORA</button>
-    </section>
-    <article class="somosWoodWorld">
-        <div class="conteiner">
-            <div class="imgConteiner"></div>
-            <div id="texto">
-                <h2>Somos<span class="colorAcento"> WoodWoorld </span></h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic sed quaerat veniam omnis ut ex dolor
-                    dignissimos libero, assumenda facere deserunt aliquam ea enim optio, rerum ducimus sunt inventore
-                    ad?
-                </p>
-            </div>
+    <nav class="navbar navbar-expand-lg bg-light P-3" id="menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><span class="fs-4 fw-bold">WoodWoorld.</span> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="promociones.html">Promociones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sobreNosotros.html">Nosotros</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
-    </article>
-    <main class="nuestrosProgramas">
-        <div class="conteiner">
-            <h2>Nuestros Estilos</h2>
-            <div class="estilos">
-                <div class="nuestrosEstilos">
-                    <h3>Rustico</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum rerum sunt, iusto modi quas
-                        soluta
-                    </p>
-                    <button>Ver</button>
+      </nav>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="../imagenes/livin.png" class="d-block w-100" alt="slider1">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="../imagenes/slider2.jpeg" class="d-block w-100" alt="slider2">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="../imagenes/slider3.jpeg" class="d-block w-100" alt="slider3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    <section class="w-50 mx-auto text-center p-4 pt5" id="introduccion">
+        <h1 class="P-3  fs-2 border-top border-3">
+            Somos<span class="text-primary">Wood Woorld</span>
+            <p class="p-10 fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quis nemo rem odio iusto, iure asperiores sequi amet eligendi, laboriosam inventore id, mollitia laborum! Minima impedit assumenda magni illo nisi Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium rerum    
+            </p>
+        </h1>
+    </section>
+    <main class="container-fluid">
+        <div class="row w-75 mx-auto my-5 serviciosFila">
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="../imagenes/NORDICO.jpg" alt="estilo Nordico" width="180" height="160">
+                <div>
+                    <h3 class="fs-5 mt-4 px-4 pb-1">Producto</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet doloremque dolorum, libero unde ducimus, quia </p>
                 </div>
-                <div class="nuestrosEstilos">
-                    <h3>Nordico</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum rerum sunt, iusto modi quas
-                        soluta
-                    </p>
-                    <button>Ver</button>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="../imagenes/NORDICO.jpg" alt="estilo Nordico" width="180" height="160">
+                <div>
+                    <h3  class="fs-5 mt-4 px-4 pb-1">Producto</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet doloremque dolorum, libero unde ducimus, quia </p>
                 </div>
-                <div class="nuestrosEstilos">
-                    <h3>Vintage</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum rerum sunt, iusto modi quas
-                        soluta
-                    </p>
-                    <button>Ver</button>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="../imagenes/NORDICO.jpg" alt="estilo Nordico" width="180" height="160">
+                <div>
+                    <h3  class="fs-5 mt-4 px-4 pb-1">Producto</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet doloremque dolorum, libero unde ducimus, quia </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap">
+                <img src="../imagenes/NORDICO.jpg" alt="estilo Nordico" width="180" height="160">
+                <div>
+                    <h3  class="fs-5 mt-4 px-4 pb-1">Producto</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet doloremque dolorum, libero unde ducimus, quia </p>
                 </div>
             </div>
         </div>
     </main>
-    <div class="caracteristicas">
-        <div class="conteiner">
-            <ul>
-                <li>Muebles A Medida</li>
-                <li>Variedad De Estilos</li>
-                <li>Envios Hasta Tu Casa</li>
-                <li>Tu Compra 100% Online</li>
-                <li>Atencion Full-Time</li>
-            </ul>
-        </div>
+<div id="local" class="border-top border-2">
+    <div class="mapa"></div>
+    <div class="wrapper">
+        <h2>ubicado en Buenos Aires, Argentina</h2>
+        <h2 class="text-primary mb-4 " id="typewrite">Ciudad Autónoma de Buenos Aires</h2>
+        <p class="fs-5 text-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam dolores, ad repellendus quod incidunt ex aspernatur? Culpa quam soluta nobis laudantium eius fugit pariatur quidem laboriosam dolores! Ducimus, quas optio?</p>
+        <section class="d-flex" id="numeroLocal">
+            <div>
+                <p class="text-primary fs-5">24/7</p>
+                <p>Atencion</p>
+            </div>
+            <div>
+                <p class="text-primary fs-5">100%</p>
+                <p>Confiables</p>
+        
+            </div>
+            <div>
+                <p class="text-primary fs-5">2012</p>
+                <p>Junto a vos</p>
+            </div>
+        </section>
     </div>
-    <section class="hero" id="heroDos">
-        <h2>Mira Nuestro Catalogo</h2>
-        <button>Ver Catalogo</button>
-    </section>
-    <footer>
-        <div class="conteiner">
-            <p>&copy; WoodWoorld 2022</p>
-        </div>
-    </footer>
+</div>
+<footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
+    <p class="fs-5 px-3  pt-3">WoodWoorld. &copy; Todos Los Derechos Reservados 2022(?</p>
+    <div id="iconos" >
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>  
+    </div>
+  </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
-
 </html>
