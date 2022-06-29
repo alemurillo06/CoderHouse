@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #f2aa4a;
+  padding: 0;
+  margin: 0;
+  height: 15px;
+}
+header p {
+  color: #000000;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 8px;
+  padding: 2px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.navbar {
+  background-color: #f1ecdf;
+}
+.navbar .container-fluid .navbar-brand {
+  letter-spacing: 3px;
+  color: #000000;
+  font-size: 25px;
+}
+.navbar .container-fluid .navbar-toggler:hover {
+  background-color: #f2aa4a;
+  color: #f2aa4a;
+}
+.navbar .container-fluid .navbar-toggler #navbarSupportedContent .navbar-nav .nav-item .nav-link {
+  font-size: 10px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.caracteristicas {
+  margin-top: 30px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+.caracteristicas .contenedorPrincipal {
+  text-align: center;
+  margin-top: 40px;
+}
+.caracteristicas .contenedorPrincipal .tituloCaracteristicas {
+  padding: 10px;
+}
+.caracteristicas .contenedorPrincipal .tituloCaracteristicas .textoCaracteristicas {
+  color: #f58723;
+}
+.caracteristicas .contenedorPrincipal .parrafoCaracteristicas {
+  color: #000000;
+}
+
+.categoriaEstilos {
+  padding-block: 50px;
+}
+.categoriaEstilos .card {
+  background-color: #f58723;
+  color: #f1ecdf;
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 5px;
+}
+.categoriaEstilos .card .card-title a {
+  text-decoration: none;
+  color: #f1ecdf;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#local {
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#local .wrapper {
+  margin-left: 20px;
+  padding-top: 50px;
+  margin-bottom: 50px;
+}
+#local .wrapper #typewrite {
+  color: #f2aa4a;
+}
+#local .wrapper #numeroLocal div {
+  color: #f2aa4a;
+  padding: 0 20px 0 0;
+  height: 48px;
+}
+#local .wrapper #numeroLocal div #numeroLocal div:not(:last-child) {
+  border-right: 2px solid #3f3f3f;
+}
+#local .wrapper #numeroLocal div #numeroLocal div:not(:first-child) {
+  padding-left: 20px;
+}
+#local .wrapper #numeroLocal div #numeroLocal p {
+  margin: 0;
+}
+
+footer {
+  background-color: #f58723;
+  min-height: 100px;
+}
+footer p {
+  color: #f3f3f3;
+  text-align: center;
+  padding-top: 3px;
+}
+footer #iconos i {
+  font-size: 20px;
+  padding: 0 8px;
+  color: #f3f3f3;
+}/*# sourceMappingURL=estilos.css.map */

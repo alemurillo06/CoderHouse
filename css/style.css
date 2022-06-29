@@ -1,0 +1,20 @@
+
+
+
+
+
+
+
+/*===============PAGINA DE NOSOTROS================*/
+.nosotrosImagenesDos{
+  width: 250px;
+  height: 200px;
+}
+.nosotrosImagenes{
+  background-image: linear-gradient(0deg, #0005, #0005),
+      url(../imagenes/livin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+/*===============PAGINA DE PRODUCTOS================*/

@@ -1,0 +1,18 @@
+.categoriaEstilos {
+  padding-block: 50px;
+  .card {
+    background-color: $naranjaOscuro;
+    color: $claro;
+    margin-bottom: 15px;
+    text-align: center;
+    padding: 5px;
+    .card-title a{
+        text-decoration: none;
+        color: $claro;
+        letter-spacing: 2px;
+        font-weight: bold;
+        font-size: 15px;
+
+    }
+  }
+}

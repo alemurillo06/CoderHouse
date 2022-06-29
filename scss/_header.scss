@@ -1,0 +1,43 @@
+header{
+    background-color: $naranjaClaro;
+    padding: 0;
+    margin: 0;
+    height: 15px;
+    p{
+        color: $negro;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 8px;
+        padding: 2px;
+        letter-spacing: 3px;
+        font-weight: bold;
+    }
+}
+.navbar{
+    background-color: $claro;
+    .container-fluid{
+        .navbar-brand{
+            letter-spacing: 3px;
+            color: $negro;
+            font-size: 25px;
+        }
+        .navbar-toggler{
+            &:hover{
+                background-color: $naranjaClaro;
+                color: $naranjaClaro;
+            }
+            #navbarSupportedContent{
+                .navbar-nav{
+                    .nav-item{
+                        .nav-link{
+                            font-size: 10px;
+                            font-weight: bold;
+                            color: $negro;
+                        }
+                    }
+                }
+            }
+        }
+    } 
+}
