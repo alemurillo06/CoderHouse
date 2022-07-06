@@ -1,0 +1,20 @@
+$redes:(
+    twitter:  #00acee,
+    facebook: #3b5998,
+    instagram: #ff0080,
+    whatsapp: #00BB2D,
+);
+
+@each $red, $color in $redes {
+    .btn-#{$red}{
+        background-color: $color;
+        border: 1px $color;
+        border-radius: 05px;
+        a{
+            color: #fff;
+            text-decoration: none;
+            padding: 8px;
+        }
+    }
+
+}

@@ -40,7 +40,10 @@ header p {
 }
 
 .caracteristicas {
-  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   height: 400px;
   display: flex;
   flex-direction: column;
@@ -116,7 +119,51 @@ footer p {
   padding-top: 3px;
 }
 footer #iconos i {
-  font-size: 20px;
+  font-size: 10px;
   padding: 0 8px;
   color: #f3f3f3;
+}
+
+.btn-twitter {
+  background-color: #00acee;
+  border: 1px #00acee;
+  border-radius: 5px;
+}
+.btn-twitter a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+  border: 1px #3b5998;
+  border-radius: 5px;
+}
+.btn-facebook a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.btn-instagram {
+  background-color: #ff0080;
+  border: 1px #ff0080;
+  border-radius: 5px;
+}
+.btn-instagram a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px;
+}
+
+.btn-whatsapp {
+  background-color: #00BB2D;
+  border: 1px #00BB2D;
+  border-radius: 5px;
+}
+.btn-whatsapp a {
+  color: #fff;
+  text-decoration: none;
+  padding: 8px;
 }/*# sourceMappingURL=estilos.css.map */
